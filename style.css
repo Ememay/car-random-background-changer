@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: iransans;
+}
+
+body {
+    text-align: center !important;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #6EC1E4;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-top: -50px
+}
+
+button:active {
+    border: none !important;
+}
+
+svg {
+    width: 500px;
+    margin: 0 auto !important;
+}
+
+h2 {
+    font-size: 40px;
+    color: #6EC1E4;
+}
+
+@media only screen and (max-width: 600px) {
+    svg {
+        width: 300px !important;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    button {
+        padding: 5px 25px;
+        font-size: 20px;
+    }
+}
